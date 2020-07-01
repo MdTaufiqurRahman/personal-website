@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 3%;
+}
+.pink{
+    color: rgb(214, 65, 115);
+    
+
+}
+
+.linkbutton{
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, rgb(233, 159, 41), rgb(243, 20, 50) );
+    
+}
+
+.half-width h1{
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+.link-button{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(236, 27, 125), rgb(243, 20, 50) );
+}
+
+.half-width img{
+    padding-left: 3%;
+    width: 70%;
+}
+
+#top-part{
+    padding-top: 5%;
+    height: 700px;
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+}
+
+#second-part{
+    padding-top: 5%;
+    height: 700px;
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+
+.half-width p{
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+#second-description{
+    position: relative;
+    right: 50px;
+    top: 100px;
+}
+
+#first-pic{
+    position: relative;
+    left: 50px;
+}
+
+#latest-area h2{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#latest-area{
+    padding-top: 30px;
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+}
+
+.latest{
+    width: 24%;
+    margin-left: 7%;
+    float: left;
+}
+
+.latest img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#bottom-part h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.name{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.name p{
+    color: rgb(97, 96, 96);
+    position: relative;
+    bottom: 12px;
+}
+
+.description{
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    background-image: linear-gradient(45deg, rgb(245, 22, 152),rgb(255, 22, 92));
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#bottom-part{
+    background-image: url("images/footer-bg.png");
+    height: 800px;
+    background-size: cover;
+}
+
+.contact h3{
+    font-size: 35px;
+}
+
+.contact p{
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
+    color: rgb(85, 84, 84);
+}
+@media screen and (max-width:800px) {
+    .contact{
+        width: 70%;
+        padding:20px 10px;
+    }
+    .contact h3{
+        font-size: 20px;
+    }
+
+}
