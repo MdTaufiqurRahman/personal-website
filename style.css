@@ -13,6 +13,9 @@ body{
     
 
 }
+p{
+    color:rgb(10, 10, 31);
+}
 
 .linkbutton{
         color: white;
@@ -147,6 +150,9 @@ body{
 
 .contact p{
     font-size: larger;
+}
+#sms{
+    color: honeydew;
 }
 
 footer{
