@@ -22,7 +22,7 @@ p{
         border-radius: 5px;
         padding: 10px 20px;
         text-decoration: none;
-        background-image: linear-gradient(45deg, rgb(233, 159, 41), rgb(243, 20, 50) );
+        background-image: linear-gradient(45deg, rgb(224, 41, 9), rgb(243, 20, 113) );
     
 }
 
@@ -36,7 +36,7 @@ p{
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(236, 27, 125), rgb(243, 20, 50) );
+    background-image: linear-gradient(45deg, rgb(241, 16, 121), rgb(238, 10, 40) );
 }
 
 .half-width img{
@@ -131,7 +131,7 @@ p{
     margin-top: 50px;
     text-align: center;
     width: 40%;
-    background-image: linear-gradient(45deg, rgb(245, 22, 152),rgb(255, 22, 92));
+    background-image: linear-gradient(45deg, rgb(245, 22, 152),rgb(255, 22, 34));
     padding: 40px 20px;
     border-radius: 10px;
     color: white;
@@ -161,7 +161,7 @@ footer{
 }
 @media screen and (max-width:1200px) {
     .contact{
-        width: 85%;
+        width: 95%;
         padding:20px 10px;
     }
     .contact h3{
